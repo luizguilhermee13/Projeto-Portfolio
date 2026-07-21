@@ -1,0 +1,22 @@
+:root {
+  --cor-fundo: #daccb7;
+  --cor-detalhes: #680a08;
+  --cor-preto: #00000;
+  --cor-branco: #ffffff;
+}
+
+body,
+header,
+main,
+footer,
+h1,
+h2,
+h3,
+p {
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
