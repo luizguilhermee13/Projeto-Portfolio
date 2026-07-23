@@ -1,0 +1,58 @@
+section.formacao {
+  background-color: var(--cor-fundo50p);
+}
+.containerFormacao {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.tituloF p {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.formacoeslist ul {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.formacoeslist li {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5rem;
+  background-color: var(--cor-preto);
+  color: var(--cor-fundo);
+  padding: 1.5rem;
+  justify-content: space-between;
+}
+
+.formacoeslist p {
+  font-size: 1.5rem;
+}
+
+.cursosIntensivos h4,
+.infoAdicionais h4 {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+.cursosIntensivos ul,
+.infoAdicionais ul {
+  margin: 0;
+  padding: 0;
+}
+
+.cursosIntensivos li,
+.infoAdicionais li {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  margin-bottom: 0.2rem;
+}

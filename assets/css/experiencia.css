@@ -1,0 +1,54 @@
+.experienciaDescricao {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.experienciaDescricao p {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #000;
+}
+
+.containerExperiencias {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.cardExperiencias {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--cor-fundo);
+}
+
+.cardExperiencias span {
+  font-size: 1.5rem;
+  color: #000;
+}
+.cardExperiencias .texto,
+.habilidades {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.cardExperiencias .texto p {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.habilidades ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0;
+}
+
+.habilidades li {
+  background-color: #ffffff;
+  padding: 0.4rem;
+}

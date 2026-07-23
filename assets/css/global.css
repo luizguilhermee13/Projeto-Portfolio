@@ -1,7 +1,8 @@
 :root {
   --cor-fundo: #daccb7;
+  --cor-fundo50p: #daccb781;
   --cor-detalhes: #680a08;
-  --cor-preto: #00000;
+  --cor-preto: #000000;
   --cor-branco: #ffffff;
 }
 
@@ -19,4 +20,22 @@ p {
 
 ul {
   list-style-type: none;
+}
+
+section.formacao,
+section.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.formacao h2,
+.experiencia h2 {
+  max-width: 100%;
+  word-break: break-all;
+  font-size: 8rem;
+  text-transform: uppercase;
+  max-width: 5ch;
+  color: var(--cor-fundo50p);
 }
