@@ -1,13 +1,17 @@
 .experienciaDescricao {
   display: grid;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr;
+  color: var(--cor-fundo);
+  gap: 1rem;
 }
 
-.experienciaDescricao p {
-  padding: 2rem 0;
+.experienciaDescricao > p {
   font-size: 1.5rem;
   text-align: justify;
-  color: #000;
+  color: var(--cor-fundo2);
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .containerExperiencias {
@@ -21,13 +25,14 @@
   grid-template-columns: 2fr 2fr;
   gap: 1rem;
   padding: 1rem;
-  background-color: var(--cor-fundo);
+  background-color: var(--cor-detalhes50p);
 }
 
 .cardExperiencias span {
   font-size: 1.5rem;
-  color: #000;
+  color: var(--cor-fundo);
 }
+
 .cardExperiencias .texto,
 .habilidades {
   display: flex;
@@ -36,7 +41,6 @@
 }
 
 .cardExperiencias .texto p {
-  text-align: justify;
   font-size: 1.2rem;
   padding: 0;
 }
@@ -50,5 +54,16 @@
 
 .habilidades li {
   background-color: #ffffff;
+  color: var(--cor-fundo2);
+  font-weight: 400;
   padding: 0.4rem;
+}
+
+.botao {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--cor-detalhes50p);
+  color: var(--cor-fundo);
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }

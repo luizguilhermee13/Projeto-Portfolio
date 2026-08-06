@@ -7,42 +7,59 @@
       name="description"
       content="Projeto do curso 'HTML e CSS para Iniciantes' da Origamid - modulo 07 Projeto Portfolio"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/4345/4345016.png"
+      type="image/x-icon"
+    />
     <title>Portfolio do Luiz</title>
   </head>
   <body>
-    <header>
-      <div class="name"><h1>Luiz Guilherme</h1></div>
-      <div class="topicos">
-        <ul>
-          <li>Experiência</li>
-          <li>Formação</li>
-          <li>Contato</li>
-        </ul>
+    <header class="header-bg">
+      <div class="header container">
+        <div class="name"><h1>Luiz Delila</h1></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section class="introducao">
+      <section class="introducao container">
         <div class="imgIntroducao">
           <img src="/assets/images/imgTemporaria.jpg" alt="" />
         </div>
         <div class="descricaoIntroducao">
-          <h2>Estudante de Desenvolvimento Web</h2>
+          <h2>Estudante de desenvolvimento Web</h2>
           <p>Localizado em Limeira e São Paulo</p>
         </div>
       </section>
-      <section class="experiencia">
-        <div><h2>Experiências</h2></div>
+
+      <section class="experiencia container" id="experiencia">
+        <h2>Experiências</h2>
         <div class="experienciaDescricao">
           <p>
-            Desenvolvo pequenos projetos como utilizando HTML,CSS e JavaScript.
-            Para aplicativos web como cafeteria goument, onde eu trabalhei no
-            Design e desenvolvimento do projeto.
+            Desenvolvedor Web em transição para o mercado. Crio pequenos
+            projetos para transformar teoria em prática, aprimorar minhas
+            habilidades e construir uma base sólida para minha primeira
+            oportunidade na área
           </p>
           <div class="containerExperiencias" id="containerExperiencias"></div>
+          <button class="botao">Mais Projetos</button>
         </div>
       </section>
-      <section class="formacao">
+
+      <section class="formacao container" id="formacao">
         <div><h2>Formação</h2></div>
         <div class="containerFormacao">
           <div class="tituloF">
@@ -52,6 +69,7 @@
               trabalhei no Design e desenvolvimento do projeto.
             </p>
           </div>
+
           <div class="formacoeslist">
             <ul>
               <li>
@@ -66,6 +84,7 @@
               </li>
             </ul>
           </div>
+
           <div class="cursosIntensivos">
             <h4>Cursos Intensivos</h4>
             <ul>
@@ -83,6 +102,7 @@
               </li>
             </ul>
           </div>
+
           <div class="infoAdicionais">
             <h4>Informações Adicionais</h4>
             <ul>
@@ -96,15 +116,16 @@
         </div>
       </section>
     </main>
+
     <footer>
-      <div class="containerFooter">
+      <div class="containerFooter container">
         <div class="texto">
           <p>
             Estou disponível para novos projetos no momento. Entre em contato
             comigo e marcamos uma conversa 👋
           </p>
         </div>
-        <div class="contato">
+        <div class="contato" id="contato">
           <p>lobo@email.com</p>
           <p>+55 21 9999-9999</p>
           <p>@instagram</p>
@@ -112,6 +133,6 @@
         <span class="direitos">Lobo. Alguns direitos reservados.</span>
       </div>
     </footer>
+    <script src="/assets/js/script.js"></script>
   </body>
-  <script src="/assets/js/script.js"></script>
 </html>

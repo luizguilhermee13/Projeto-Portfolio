@@ -1,54 +1,42 @@
-header {
+.header-bg {
+  background: var(--cor-detalhes);
+  color: var(--cor-fundo);
+}
+
+.header {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  align-items: center;
-  padding: 1rem;
-  max-width: 1200px;
+}
+
+.menu a {
+  color: var(--cor-fundo);
+  margin: 0;
+
+  font-size: xx-large;
+}
+.name {
+  width: 100%;
+  text-align: left;
 }
 
 .name h1 {
   font-size: xxx-large;
+  font-family: "Roboto Serif", serif;
 }
 
-.topicos ul {
+.menu {
+  width: 100%;
+  height: 100%;
+}
+
+.menu ul {
+  text-align: right;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-  gap: 3rem;
-  font-size: x-large;
+  gap: 0.25rem;
+  width: 100%;
+  height: 100%;
 }
 
-div.name {
-  font-family: initial;
-}
-
-@media (max-width: 1000px) {
-  .topicos ul {
-    justify-content: end;
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 813px) {
-  .name h1 {
-    font-size: xx-large;
-  }
-  .topicos ul {
-    justify-content: end;
-    gap: 1.5rem;
-    font-size: large;
-  }
-}
-
-@media (max-width: 640px) {
-  .name h1 {
-    font-size: x-large;
-  }
-  .topicos ul {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: end;
-    gap: 0.1rem;
-    font-size: large;
-  }
+.menu ul li {
+  align-self: center;
 }

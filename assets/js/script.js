@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function cardsPortfolio() {
     },
     {
       id: 3,
-      titulo: "MirandaTreinamentos",
+      titulo: "Bikcraft",
       descricao:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa atque veniam,",
-      subtitulo: "Projeto em Grupo",
+        "O Bikcraft é um site responsivo desenvolvido para uma empresa fictícia de bicicletas elétricas e seguros personalizáveis.,",
+      subtitulo: "Projeto Pessoal",
     },
   ];
 
@@ -41,7 +41,9 @@ document.addEventListener("DOMContentLoaded", function cardsPortfolio() {
          <li>JavaScript</li>
          <li>GitHub</li>
         </ul>
+        
       </div>
+     
     </div>
     `;
     })
