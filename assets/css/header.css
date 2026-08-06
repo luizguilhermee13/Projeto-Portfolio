@@ -6,13 +6,15 @@
 .header {
   display: grid;
   grid-template-columns: 2fr 2fr;
+
+  align-items: center;
 }
 
 .menu a {
   color: var(--cor-fundo);
   margin: 0;
 
-  font-size: xx-large;
+  font-size: x-large;
 }
 .name {
   width: 100%;
@@ -39,4 +41,11 @@
 
 .menu ul li {
   align-self: center;
+}
+
+@media (max-width: 578px) {
+  .menu ul {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
 }

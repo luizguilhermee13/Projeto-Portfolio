@@ -1,6 +1,7 @@
-section.formacao {
+.formacao {
   background-color: var(--cor-fundo50p);
 }
+
 .containerFormacao {
   display: flex;
   flex-flow: column wrap;
@@ -10,49 +11,106 @@ section.formacao {
 .tituloF p {
   padding: 2rem 0;
   font-size: 1.5rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .formacoeslist ul {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
   gap: 1rem;
   font-size: 1rem;
 }
 
 .formacoeslist li {
+  width: 16rem;
   display: flex;
   flex-flow: column wrap;
-  gap: 0.5rem;
-  background-color: var(--cor-preto);
+  gap: 1rem;
+  background-color: var(--cor-detalhes50p);
   color: var(--cor-fundo);
   padding: 1.5rem;
   justify-content: space-between;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 4px 1px var(--cor-detalhes80p);
 }
 
+.formacoeslist span {
+  font-size: 1.2rem;
+  font-style: italic;
+}
 .formacoeslist p {
   font-size: 1.5rem;
 }
 
-.cursosIntensivos h4,
-.infoAdicionais h4 {
-  margin: 0 0 0.5rem 0;
-  padding: 0;
+.cursosIntensivos,
+.infoAdicionais {
+  width: 100%;
 }
 
 .cursosIntensivos ul,
 .infoAdicionais ul {
+  padding-bottom: 1rem;
   margin: 0;
-  padding: 0;
 }
 
-.cursosIntensivos li,
-.infoAdicionais li {
+.cursosIntensivos h4,
+.infoAdicionais h4 {
+  width: 100%;
+  text-align: left;
+  font-size: x-large;
+  font-style: italic;
+  color: var(--cor-detalhes);
+  margin-bottom: 0.5rem;
+}
+
+.cursosIntensivos p,
+.cursosIntensivos span {
+  margin: 0;
+}
+
+.cursosIntensivos li {
   display: flex;
-  justify-content: space-between;
   font-size: larger;
-  margin-bottom: 0.2rem;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+@media (max-width: 920px) {
+  .formacao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .formacao h2 {
+    grid-column: 1 /-1;
+  }
+  .formacoeslist ul {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 578px) {
+  .formacao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .formacao h2 {
+    grid-column: 1 /-1;
+  }
+  .formacoeslist ul {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+  .tituloF p {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cursosIntensivos ul,
+  .infoAdicionais ul {
+    padding-bottom: 0;
+  }
 }

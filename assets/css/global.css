@@ -46,3 +46,43 @@
   max-width: 4ch;
   color: var(--cor-detalhes80p);
 }
+
+@media (max-width: 900px) {
+  .formacao,
+  .experiencia {
+    gap: 1rem;
+  }
+  .formacao h2,
+  .experiencia h2 {
+    font-size: 4rem;
+    max-width: 20ch;
+  }
+}
+
+@media (max-width: 768px) {
+  .formacao,
+  .experiencia {
+    gap: 2rem;
+  }
+  .formacao h2,
+  .experiencia h2 {
+    font-size: 4rem;
+    max-width: 1ch;
+  }
+}
+
+@media (max-width: 578px) {
+  .formacao h2,
+  .experiencia h2 {
+    font-size: 4rem;
+    max-width: 20ch;
+  }
+}
+
+@media (max-width: 420px) {
+  .formacao h2,
+  .experiencia h2 {
+    font-size: 3rem;
+    max-width: 20ch;
+  }
+}

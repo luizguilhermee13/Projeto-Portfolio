@@ -26,6 +26,8 @@
   gap: 1rem;
   padding: 1rem;
   background-color: var(--cor-detalhes50p);
+  box-shadow: 0px 0px 4px 0px var(--cor-detalhes);
+  border-radius: 0.2rem;
 }
 
 .cardExperiencias span {
@@ -43,6 +45,7 @@
 .cardExperiencias .texto p {
   font-size: 1.2rem;
   padding: 0;
+  color: var(--cor-fundo);
 }
 
 .habilidades ul {
@@ -66,4 +69,38 @@
   color: var(--cor-fundo);
   font-size: 1.4rem;
   text-transform: uppercase;
+  box-shadow: 0px 0px 4px 0px var(--cor-detalhes);
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: var(--cor-detalhes);
+}
+
+@media (max-width: 578px) {
+  .experiencia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .containerExperiencias h2 {
+    grid-column: 1 /-1;
+  }
+  .habilidades ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .experienciaDescricao > p {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: max-content;
+    box-sizing: border-box;
+  }
 }

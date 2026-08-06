@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function cardsPortfolio() {
       id: 2,
       titulo: "Pokedex Api",
       descricao:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa atque veniam,",
+        "Este Projeto foi desenvolvindo para praticar o consumo de Api",
       subtitulo: "Projeto Pessoal",
     },
     {
