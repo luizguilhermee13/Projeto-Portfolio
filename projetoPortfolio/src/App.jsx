@@ -1,6 +1,7 @@
 import { BackgroundPixelStars } from "@/components/ui/BackgroundPixelStars";
 import Navbar from "./components/ui/Navbar";
 import Introducao from "./components/ui/Introducao";
+import CaixaDeFerramentas from "./components/ui/CaixaDeFerramentas";
 
 export function App() {
   return (
@@ -13,7 +14,7 @@ export function App() {
       </header>
       <main className="grid grid-cols-1">
         <Introducao />
-        <div className="bg-[#0E101A]">teste</div>
+        <CaixaDeFerramentas />
       </main>
     </div>
   );

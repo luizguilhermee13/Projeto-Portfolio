@@ -53,3 +53,23 @@
 body {
   margin: 0;
 }
+
+@keyframes slide-direita {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-slide-direita {
+  display: flex;
+  width: max-content;
+  animation: slide-direita 22s linear infinite;
+}
+
+/* Pausa ao passar o mouse (opcional, ajuda na leitura) */
+.group-marquee:hover .animate-slide-direita {
+  animation-play-state: paused;
+}
