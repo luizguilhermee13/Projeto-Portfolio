@@ -1,5 +1,6 @@
 import { BackgroundPixelStars } from "@/components/ui/BackgroundPixelStars";
 import Navbar from "./components/ui/Navbar";
+import Introducao from "./components/ui/Introducao";
 
 export function App() {
   return (
@@ -10,9 +11,9 @@ export function App() {
       <header>
         <Navbar />
       </header>
-      <main className="relative z-10 flex flex-col items-center justify-center min-h-screen p-6">
-        <h1 className="text-4xl font-bold tracking-wider mb-4">Meu Portfólio</h1>
-        <p className="text-gray-400">Migrando para React + Vite 🚀</p>
+      <main className="grid grid-cols-1">
+        <Introducao />
+        <div className="bg-[#0E101A]">teste</div>
       </main>
     </div>
   );
