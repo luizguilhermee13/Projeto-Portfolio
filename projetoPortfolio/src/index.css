@@ -54,6 +54,7 @@ body {
   margin: 0;
 }
 
+/* Slide Habilidades*/
 @keyframes slide-direita {
   0% {
     transform: translateX(-50%);

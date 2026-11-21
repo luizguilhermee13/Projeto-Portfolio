@@ -15,6 +15,7 @@ export function App() {
       <main className="grid grid-cols-1">
         <Introducao />
         <CaixaDeFerramentas />
+        {/* slide habilidades*/}
       </main>
     </div>
   );
