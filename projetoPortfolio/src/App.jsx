@@ -3,6 +3,7 @@ import Navbar from "./components/ui/Navbar";
 import Introducao from "./components/ui/Introducao";
 import CaixaDeFerramentas from "./components/ui/CaixaDeFerramentas";
 import ProjetosFeitos from "./components/ui/ProjetosFeitos";
+import SectionSobre from "./components/ui/SectionSobre";
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
         {/* slide habilidades*/}
         <CaixaDeFerramentas />
         <ProjetosFeitos />
+        <SectionSobre />
       </main>
     </div>
   );
