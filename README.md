@@ -1,31 +1,38 @@
-# 🚀 Portfólio / Projeto em Reestruturação
+# 🚀 Portfólio Pessoal — Luiz Delila
 
-Este projeto servirá como fundação para o meu portfólio pessoal e atualmente encontra-se em uma fase de evolução e refatoração arquitetural.
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades técnicas e experiências na área de desenvolvimento front-end.
 
----
-
-## 🚧 Status do Projeto: Em Reestruturação (Migrando para React)
-
-O projeto está passando por uma reestruturação completa. Estamos migrando a base estática original (HTML/CSS/JS) para um ecossistema moderno utilizando **React + Vite**, além de melhorias pendentes na responsividade devido às últimas alterações na interface.
-
-### 📌 Sobre a Base Original
-
-O projeto teve sua base inicial desenvolvida com base no **Módulo 07** do curso **"HTML e CSS para Iniciantes"** da [Origamid](https://www.origamid.com/), focando em **HTML5 semântico** e **CSS3 moderno** (Grid Layout, Flexbox e Variáveis CSS).
+🔗 **Acesse o projeto online:** [https://projeto-portfolio-mu-opal.vercel.app/](https://projeto-portfolio-mu-opal.vercel.app/)
 
 ---
 
-## 🎯 Planejamento para as Próximas Versões
+## 🚧 Status do Projeto: Em Desenvolvimento / Reestruturação
 
-- ⚛️ **Ecosystem React:** Componentizar toda a aplicação utilizando **React**, permitindo renderização dinâmica, reaproveitamento de componentes e gerenciamento de estado.
-- 🎨 **Estilização & Design:** Refatorar o fluxo visual e o design system (com base no protótipo do Figma).
-- 📱 **Correção de Responsividade:** Ajustar quebras de layout e adaptação para dispositivos móveis e tablets decorrentes das últimas atualizações.
-- 📄 **Novas Páginas & Seções:** Adicionar páginas dedicadas para detalhamento de projetos, formulário de contato dinâmico e visualização de experiências.
+O projeto encontra-se atualmente em fase ativa de construção e evolução arquitetural. A interface está sendo migrada e estruturada do zero em uma arquitetura baseada em componentes com **React + Vite** e **Tailwind CSS**, seguindo uma identidade visual própria criada no Figma.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React** — Biblioteca para construção de interfaces baseadas em componentes.
+- **Vite** — Ferramenta de build e ambiente de desenvolvimento rápido.
+- **JavaScript (ES6+)** — Lógica da aplicação e manipulação dinâmica de dados.
+- **Tailwind CSS** — Estilização utilitária, responsividade e design system.
+- **HTML5 Canvas** — Renderização do background animado em estilo pixel art retrô.
+- **Vercel** — Hospedagem e deploy contínuo.
+
+---
+
+## 🎯 Planejamento e Próximos Passos
+
+- ⚛️ **Componentização Completa:** Finalizar a estruturação dos cards de projetos, seções de experiência e navegação.
+- 📱 **Responsividade:** Refinar a adaptação de layout para dispositivos móveis e tablets.
+- ⚡ **Interatividade & Animações:** Aprimorar transições, efeitos visuais e navegação entre seções.
+- 🔌 **Expansão Futura:** Preparar a base para futuras integrações (como formulário de contato funcional e recursos de back-end).
 
 ---
 
 ## 🎨 Protótipo e Design
 
-Você pode conferir o planejamento visual e a estrutura planejada através do protótipo no Figma:  
-👉 **[Acessar Prototipo no Figma](https://www.figma.com/proto/TZTT7VDUAMTiSJ4nqys5we/Prototipo-Portfolio-2026?node-id=1-3&p=f&t=WbrKuTLxAOeqlZXi-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)**
-
----
+O planejamento visual, paleta de cores e estrutura de interface podem ser conferidos no protótipo do Figma:  
+👉 **[Acessar Protótipo no Figma](https://www.figma.com/proto/TZTT7VDUAMTiSJ4nqys5we/Prototipo-Portfolio-2026?node-id=1-3&p=f&t=WbrKuTLxAOeqlZXi-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)**
