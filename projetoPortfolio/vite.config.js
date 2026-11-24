@@ -9,7 +9,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // 2. Configure o @ para apontar para a pasta src
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(import.meta.dirname, "./src"),
     },
   },
 });
