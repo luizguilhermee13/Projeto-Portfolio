@@ -20,7 +20,7 @@ const pilares = [
 
 function SectionSobre() {
   return (
-    <section className="w-full grid grid-cols-1 lg:grid-cols-2 bg-[#111420] mb-8">
+    <section className="w-full grid grid-cols-1 lg:grid-cols-2 bg-[#111420] ">
       {/* Coluna Esquerda */}
       <div className="min-h-105 lg:min-h-185 px-6 sm:px-8 lg:pl-8 py-12 flex flex-col gap-6 justify-between lg:justify-evenly">
         <div className="flex flex-col gap-4">
@@ -58,7 +58,7 @@ function SectionSobre() {
           ))}
         </div>
       </div>
-      <div className="w-full -col-end-1 flex justify-end pr-6">
+      <div className="w-full -col-end-1 flex justify-end pr-6 py-4">
         <Button>Mais Sobre Mim</Button>
       </div>
     </section>

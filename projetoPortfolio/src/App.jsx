@@ -4,6 +4,8 @@ import Introducao from "./components/ui/Introducao";
 import CaixaDeFerramentas from "./components/ui/CaixaDeFerramentas";
 import ProjetosFeitos from "./components/ui/ProjetosFeitos";
 import SectionSobre from "./components/ui/SectionSobre";
+import SectionProcesso from "./components/ui/SectionProcesso";
+import Footer from "./components/ui/Footer";
 
 export function App() {
   return (
@@ -20,7 +22,9 @@ export function App() {
         <CaixaDeFerramentas />
         <ProjetosFeitos />
         <SectionSobre />
+        <SectionProcesso />
       </main>
+      <Footer />
     </div>
   );
 }
