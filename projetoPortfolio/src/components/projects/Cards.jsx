@@ -1,5 +1,4 @@
-import React from "react";
-import projeto1Img from "../../assets/temp.jpg";
+import projeto1Img from "@/assets/temp.jpg";
 
 function Cards() {
   const conteudoCards = [
@@ -28,14 +27,19 @@ function Cards() {
       tecnologias: "teste1 ,teste2",
     },
   ];
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:gap-6">
       {conteudoCards.map((card) => (
-        <article key={card.id} className="rounded-xl bg-[#11131F] border border-[#23273D] overflow-hidden">
-          <img src={card.imagem} alt={card.alt} className="w-full h-48 object-cover" />
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-white">{card.titulo}</h3>
-            <p className="text-sm text-[#A1A4B6] mt-1">{card.tecnologias}</p>
+        <article
+          key={card.id}
+          className="overflow-hidden rounded-2xl border border-line bg-surface transition-transform duration-300 hover:-translate-y-1"
+        >
+          <img src={card.imagem} alt={card.titulo} className="aspect-[16/10] w-full object-cover" />
+
+          <div className="p-4 sm:p-5">
+            <h3 className="text-lg font-semibold text-ink">{card.titulo}</h3>
+            <p className="mt-1 text-sm text-muted">{card.tecnologias}</p>
           </div>
         </article>
       ))}

@@ -1,4 +1,4 @@
-import React, { memo, useCallback, useEffect, useRef } from "react";
+import { memo, useCallback, useEffect, useRef } from "react";
 
 // Paleta de cores de 16 bits (opções de cores reduzidas)
 const STAR_COLORS = [
